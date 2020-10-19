@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+
+    <form name="formulario" action="index.html" method="GET"  >
+   
+        <p> Ingreso al Sistema </p>
+
+        <div>
+            <label for="email"> Usuario: </label>
+            <input type="text" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass"> Clave: </label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <br>
+        <div>
+        
+        <input type="button" value="Ingresar" onclick="validarForm(this.formulario)">
+            
+        </div>
+    </form>
+    <script src="control.js"></script>
+</body>
+
+</html>
